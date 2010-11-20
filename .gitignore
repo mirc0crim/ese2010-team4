@@ -6,16 +6,19 @@ bin/
 *.o
 
 # ignoring test results
-test-result/
+/qa/test-result
 
 # ignoring logs
-logs/
+/qa/logs
 
 # ignoring tmp
-tmp/
+/qa/tmp
 
 # ignoring bin
 bin/
+
+# and cobertura
+/qa/cobertura.ser
 
 
 # ignoring some files we don't want on our repo
